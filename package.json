@@ -1,0 +1,9 @@
+{
+  "name": "from-registry",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "next": "16.4.4",
+    "react": "19.3.1"
+  }
+}
