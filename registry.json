@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "poc-toolkit",
+  "homepage": "https://github.com/Aesirlvu/poc-toolkit",
+  "items": [
+    {
+      "name": "conventions",
+      "type": "registry:item",
+      "title": "Conventions",
+      "description": "Test conventions item.",
+      "files": [
+        {
+          "path": "docs/conventions.md",
+          "type": "registry:file",
+          "target": "~/docs/conventions.md"
+        }
+      ]
+    }
+  ]
+}
