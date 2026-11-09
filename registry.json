@@ -4,34 +4,17 @@
   "homepage": "https://github.com/Aesirlvu/poc-toolkit",
   "items": [
     {
-      "name": "base-kit",
+      "name": "with-pkg",
       "type": "registry:item",
-      "title": "Base Kit",
-      "description": "Has a ui component with @ui placeholder target.",
+      "title": "With Package",
+      "description": "Test item with a package.json file and dependency declarations.",
+      "dependencies": ["sonner"],
+      "devDependencies": ["vitest"],
       "files": [
         {
-          "path": "components/ui/demo-badge.tsx",
-          "type": "registry:ui",
-          "target": "@ui/demo-badge.tsx"
-        },
-        {
-          "path": "components/ui/demo-card.tsx",
-          "type": "registry:ui",
-          "target": "@ui/demo-card.tsx"
-        }
-      ]
-    },
-    {
-      "name": "full-setup",
-      "type": "registry:item",
-      "title": "Full Setup",
-      "description": "Depends on base-kit plus a file.",
-      "registryDependencies": ["Aesirlvu/poc-toolkit/base-kit"],
-      "files": [
-        {
-          "path": "docs/conventions.md",
+          "path": "package.json",
           "type": "registry:file",
-          "target": "~/docs/conventions.md"
+          "target": "~/package.json"
         }
       ]
     }
